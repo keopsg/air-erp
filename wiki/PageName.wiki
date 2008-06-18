@@ -1,39 +1,39 @@
 = AIR-ERP Accounting System =
 
-AIR-ERP is a small Accounting Program Written in powerbuilder 10.5 with the help of Kodigo Explorer written by Yeyi.
+AIR-ERP is a small Accounting Program Written in powerbuilder 10.5 with the help of Kodigo Explorer written by Yeyi. Intended to use for Winterpine Group of Companies
 
 == Modules ==
-  * Accounts Payable
+  * *Accounts Payable*
     # Purchase Order
     # Accounts Payable Voucher
     # Cash/Check Voucher
     # Credit Memo
     # Debit Memo
     # Petty Cash Liquidation
-  * Accounts Receivable
+  * *Accounts Receivable*
     # Accounts Receivable Voucher
     # Collection
     # Credit Memo
     # Debit Memo
     # Cash/Check Deposit
     # Tagging of Bounced Checks
-  * Sales and Distribution
+  * *Sales and Distribution*
     # Sales Order
-  * Inventory and Warehouse management
+  * *Inventory and Warehouse management*
     # Warehouse Receiving
     # Warehouse Transfer
     # Physical Count
     # Return From Customer
     # Return To Supplier
     # Stock Adjustment
-  * Bank Reconciliation
+  * *Bank Reconciliation*
     # Bank Account Info
     # Bank Adjustment
-  * General Accounting
+  * *General Accounting*
     # Trial Balance
     # Balance Sheet
     # Income Statement
     # General Ledger
-  * Customer Relations 
+  * *Customer Relations*
     # Customer Info
     # Customer Ledger
