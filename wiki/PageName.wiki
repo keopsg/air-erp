@@ -4,9 +4,36 @@ AIR-ERP is a small Accounting Program Written in powerbuilder 10.5 with the help
 
 == Modules ==
   * Accounts Payable
+    # Purchase Order
+    # Accounts Payable Voucher
+    # Cash/Check Voucher
+    # Credit Memo
+    # Debit Memo
+    # Petty Cash Liquidation
   * Accounts Receivable
+    # Accounts Receivable Voucher
+    # Collection
+    # Credit Memo
+    # Debit Memo
+    # Cash/Check Deposit
+    # Tagging of Bounced Checks
   * Sales and Distribution
+    # Sales Order
   * Inventory and Warehouse management
+    # Warehouse Receiving
+    # Warehouse Transfer
+    # Physical Count
+    # Return From Customer
+    # Return To Supplier
+    # Stock Adjustment
   * Bank Reconciliation
+    # Bank Account Info
+    # Bank Adjustment
   * General Accounting
+    # Trial Balance
+    # Balance Sheet
+    # Income Statement
+    # General Ledger
   * Customer Relations 
+    # Customer Info
+    # Customer Ledger
