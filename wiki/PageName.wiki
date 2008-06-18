@@ -1,0 +1,12 @@
+= AIR-ERP Accounting System =
+
+AIR-ERP is a small Accounting Program Written in powerbuilder 10.5 with the help of Kodigo Explorer written by Yeyi.
+
+== Modules ==
+  * Accounts Payable
+  * Accounts Receivable
+  * Sales and Distribution
+  * Inventory and Warehouse management
+  * Bank Reconciliation
+  * General Accounting
+  * Customer Relations 
