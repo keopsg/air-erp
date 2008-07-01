@@ -1,6 +1,6 @@
 = AIR-ERP Accounting System =
 
-AIR-ERP is a small Accounting Program Written in powerbuilder 10.5 with the help of Kodigo Explorer written by Yeyi. Intended to use for Winterpine Group of Companies
+AIR-ERP is a small Accounting Program Written in powerbuilder 10.5 with the help of [http://kodigopower.com/ Kodigo Explorer] written by Yeyi. Intended to use for Winterpine Group of Companies
 
 == Modules ==
   * *Accounts Payable*
