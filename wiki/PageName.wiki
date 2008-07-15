@@ -1,6 +1,11 @@
+AIR-ERP Documentations
+
 = AIR-ERP Accounting System =
 
-AIR-ERP is a small Accounting Program Written in powerbuilder 10.5 with the help of [http://kodigopower.com/ Kodigo Explorer] written by Yeyi. Intended to use for Winterpine Group of Companies
+AIR-ERP is a small Accounting Program Written in powerbuilder 10.5 with the help of Kodigo Explorer written by Yeyi. Intended to use for Winterpine Group of Companies
+== Suported Database ==
+  * * Microsoft SQL Server(Tested on Version 7) *
+  * * MySQL Version 5.0 *
 
 == Modules ==
   * *Accounts Payable*
@@ -37,3 +42,47 @@ AIR-ERP is a small Accounting Program Written in powerbuilder 10.5 with the help
   * *Customer Relations*
     # Customer Info
     # Customer Ledger
+
+== Default Field Accelarators ==
+    # Trans Type 			= ALT+T
+    # Document Number 		= ALT+B
+    # Document Date 		= ALT+D
+    # Business Partners Type 	= ALT+Y
+    # Business Partners Name 	= ALT+E
+    # Term Code 			= ALT+M
+    # Tax Category 		= ALT+G
+    # Currency ID 			= ALT+U
+
+== Default Button Accelarators ==
+    # Save 		= ALT+S
+    # Cancel 	= ALT+C
+    # Post 		= ALT+O
+    # Reverse 	= ALT+R
+    # Print 	= +ALT+P
+    # Close/Exit 	= ALT+X
+
+== Creating Tables ==
+    # Create tables using the default template.
+    # All Journal Table name must end with the word "OTHER"
+    # Check existing columns before adding a new one.
+
+== Creating Module ==
+    # Add the Module Name and Group on Module File Maintenance.
+    # Create all the Tables to be use for this module
+    # Create Datawindow using the Tables on B, Set Update Properties, Dropdown Datawindows, Tabsequence, Font and Font Style.
+    # Inherit u_base_hdrdtl_de for Data Entry, set dataobjects(Datawindow Name), Button Properties(Visibility)
+    # Add u_dwde object on dataentry for Details of it if neccesary.
+    # Inherit u_rowmanager for Rowmanager of the module. (Deprecated)s
+	Set dataobject(Datawindow Name), #dataentry to Dataentry Name, #showfilter to show multiple filter, #showdatepromt to show Date Promt
+
+== AIR-ERP Log ==
+    * * July 06,2008 *
+	    # Remove all Rowmanager Objects on All Modules and use one rowmanager for all(u_rowmanager).
+	    # Create Formula on all Modules that affect Accounting Reports
+	    # Create "AIRDatawindow" table to dynamicaly get the latest version of datawindow on central database
+	    # Update Chart of Accounts base on WTP-Retail
+    * * July 07,2008 *
+	    # Create Filter on All Rowmanager
+    * * July 08,2008 *
+	    # Check for script that are not compatible on MySQL Sever like ISNULL and TOP
+	    # Test on MySQL Database
