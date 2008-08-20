@@ -43,6 +43,12 @@ AIR-ERP is a small Accounting Program Written in powerbuilder 10.5 with the help
     # Customer Info
     # Customer Ledger
 
+== To Install ==
+    # Download the Latest Version on Download Section
+    # Attach the Datatabase
+    # Set Server Name and Database Password in the INI file
+    # Log as "sa" with password "sa"
+
 == Default Field Accelarators ==
     # Trans Type 			= ALT+T
     # Document Number 		= ALT+B
