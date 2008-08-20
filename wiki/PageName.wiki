@@ -86,3 +86,5 @@ AIR-ERP is a small Accounting Program Written in powerbuilder 10.5 with the help
     * * July 08,2008 *
 	    # Check for script that are not compatible on MySQL Sever like ISNULL and TOP
 	    # Test on MySQL Database
+    * * Augost 20,2008 *
+	    # Add new reports
