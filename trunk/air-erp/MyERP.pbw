@@ -1,0 +1,12 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+ 0 "..\\..\\..\\downloaded\\xp list\\listbar.pbt";
+@end;
+@begin Targets
+ 0 "myerp.pbt";
+ 1 "..\\air-pos\\airpos.pbt";
+ 2 "..\\..\\..\\downloaded\\xp list\\listbar.pbt";
+ 3 "..\\psr\\PSR_Viewer.pbt";
+@end;
+DefaultTarget "myerp.pbt";
+DefaultRemoteTarget "myerp.pbt";
