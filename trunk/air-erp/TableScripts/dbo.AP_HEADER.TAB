@@ -1,0 +1,25 @@
+CREATE TABLE [dbo].[AP_HEADER] (
+	[AMOUNT] [decimal](18, 6) NOT NULL ,
+	[BPCODE] [decimal](18, 4) NOT NULL ,
+	[BPTYPE] [decimal](18, 4) NOT NULL ,
+	[BRANCH_CODE] [decimal](18, 4) NOT NULL ,
+	[CHANGED_BY] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[COMPANY_CODE] [decimal](18, 4) NOT NULL ,
+	[CREATED_BY] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[CURRENCY_ID] [decimal](18, 4) NOT NULL ,
+	[DATE_CHANGED] [datetime] NOT NULL ,
+	[DATE_CREATED] [datetime] NOT NULL ,
+	[DEPARTMENT_CODE] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[DOCDATE] [datetime] NOT NULL ,
+	[DOCNUM] [decimal](18, 0) NOT NULL ,
+	[RATE] [decimal](18, 4) NOT NULL ,
+	[TAX_CATEGORY] [decimal](18, 4) NOT NULL ,
+	[TERM_CODE] [decimal](18, 4) NOT NULL ,
+	[RECNO] [decimal](18, 0) IDENTITY (1, 1) NOT FOR REPLICATION  NOT NULL ,
+	[RECNO_DBID] [decimal](18, 4) NOT NULL ,
+	[REMARKS] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL ,
+	[STATUS] [varchar] (1) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL 
+) ON [PRIMARY]
+GO
+
+
