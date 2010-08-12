@@ -1,0 +1,73 @@
+=AIR-ERP Accounting System=
+
+*AIR-ERP Accounting System* is created to Automate the the generation of reports for 
+_Accounting_, _Finance_, _Credit_ and _Collection_, _Inventory_ and _Sales_ Department within an Organization.
+
+===Suported Database===
+  * * Microsoft SQL Server 2000 *
+  * * MySQL Version 5.0 *
+  * * Adaptive SQL Anywhere *
+
+=== Modules ===
+  * *Accounts Payable*
+    # Purchase Order
+    # Accounts Payable Voucher
+    # Cash/Check Voucher
+    # Credit Memo
+    # Debit Memo
+    # Petty Cash Liquidation
+    # Aging of Accounts Payable
+  * *Accounts Receivable*
+    # Accounts Receivable Voucher
+    # Collection
+    # Credit Memo
+    # Debit Memo
+    # Cash/Check Deposit
+    # Tagging of Bounced Checks
+  * *Sales and Distribution*
+    # Sales Order
+    # Delivery Receipt
+    # Sales Report
+  * *Inventory and Warehouse management*
+    # Warehouse Receiving
+    # Warehouse Transfer
+    # Physical Count
+    # Return From Customer
+    # Return To Supplier
+    # Stock Adjustment
+    # Stock Card Report
+  * *Bank Reconciliation*
+    # Bank Account Info
+    # Bank Adjustment
+    # Check Monitoring
+  * *General Accounting*
+    # Trial Balance
+    # Balance Sheet
+    # Income Statement
+    # General Ledger
+  * *Customer Relations*
+    # Customer Info
+    # Customer Ledger
+    # Aging Of Accounts Receivable
+	
+
+=== To Install ===
+    # Download the Installer from http://code.google.com/p/air-erp/downloads/list
+    # Run the Installer, after running it, it will automatically run the program by default. If no database detected, it will run the database installer.
+    # Log as "sa", User Name and Password are the same.
+
+=== System Requirements ===
+    # Atleast Windows 2000 Pro, but Windows XP is Recomended.
+    # Dot net 2.0 - To run the Database Installer.
+    # Microsoft SQL Sever 2000 for database server.
+
+=== Screen Shots ===
+    # Main Menu 
+[http://picasaweb.google.com/lh/photo/MH_aQvCKLCOzaIoocn-wVQ?feat=directlink http://lh3.ggpht.com/_d_eEFbi3M98/SZDMBn085aI/AAAAAAAAABQ/8iZSgz9EyCo/s800/Main.JPG]
+    # Login
+[http://picasaweb.google.com/lh/photo/F13bqiANSFvgne3zhjoPHQ?feat=directlink http://lh5.ggpht.com/_d_eEFbi3M98/SZDMBrB-fZI/AAAAAAAAABI/GmoBeJTuR50/s800/LogIn.JPG]
+    # Data Entry
+[http://picasaweb.google.com/lh/photo/J4XmSdOOYAIFDkc7yonMqg?feat=directlink http://lh6.ggpht.com/_d_eEFbi3M98/SZDMB_gmzMI/AAAAAAAAABY/0Y9KuNJVinw/s800/DataEntry.JPG]
+For more Info, Contact me at blaire.duarte@gmail.com
+
+Many thanks to Yeyi for Kodigo Controls, http://kodigopower.com
